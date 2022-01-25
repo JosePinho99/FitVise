@@ -1,0 +1,30 @@
+.input-group {
+    width: 100%;
+    left: 40%;
+    margin-top: 50px;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.bt-wrapper {
+    width: 100%;
+    border: 10px solid black;
+}
+
+.fleex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.form-select {
+    width: 200px !important;
+    margin-right: 20px;
+}
+
+.nopp {
+    background-color: rgb(241, 41, 41) !important;
+}

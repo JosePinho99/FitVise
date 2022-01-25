@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FitVise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="fitvise1.png">
+    <style>
+       body {
+           background-color: white;
+           font-family: 'Open Sans', sans-serif;
+       }
+        .carousel {
+            width: 1100px;
+            margin: 30px auto;
+            background-position:top;
+            
+        }
+
+        .carousel-item {
+            z-index: -100;
+            height: 480px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 5px
+        }
+
+            .carousel-item:nth-child(1) {
+                background-image: url("https://www.ua.pt/contents/imgs/living/viver_aveiro_6.jpg");
+            }
+
+            .carousel-item:nth-child(2) {
+                background-image: url('https://www.noticiasmagazine.pt/files/2021/11/strong-man-training-in-gym-1200x675.jpg');
+            }
+
+            .carousel-item:nth-child(3) {
+                background-image: url('https://www.cm-arouca.pt/wp-content/uploads/2020/06/complexo_desportivo_de_arouca_1-1350x675.jpg');
+            }
+
+            .carousel-item:nth-child(4) {
+                background-image: url('https://promofitness.com/wp-content/uploads/2020/03/artigo4-1030x541.jpg');
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img width="100"  src="fitvise1.png" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="locations.html">Localizações</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="ementa.html">Ementas</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="planostreino.html">Planos de Treino</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pts.html">Personal Trainers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="desafios.html">Desafios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Premium.html" style="color: goldenrod;">Premium</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link" href="prozis.html">
+                          <img width="100" src="prozis_logo_red.png" />
+                      </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="SignInUp.html" id="log" style="position: absolute;right: 20px">Log In</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExample" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 >Estamos em expansão. Veja as nossas novas localizações.</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 >Ficar em forma nunca foi tão fácil. Venha aos nossos ginásios.</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 >Temos à sua disposição diferemtes planos de treino. Escolha um pré-defenido ou construa o seu.</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 > Escolha o seu Personal Trainer de acordo com as suas preferências.</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"  style="color:black;">
+            <span class="carousel-control-prev-icon " aria-hidden="true"  style="color:red;"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next"  style="color:black;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <video width="600" height="400" controls style="margin:50px;margin-bottom:50px;" >
+        <source src="motvid.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+      <div class="row justify-content-center" style="margin-top:-400px;margin-left:600px; margin-bottom: 200px;">
+        <div class="col-lg-10 col-md-8 col-sm-6">
+            <h2>Sobre o FITVISE</h2>
+            <p>
+                O FITVISE é um ginásio localizado em Aveiro,que pretende expandir a sua atividade abrindo novos espaços espalhados pelo país.
+            </p>
+             <p>
+                Consequentemente, para facilitar essa expansão, decidiu investir no desenvolvimento duma aplicação/website que, não só vai atrair novos cliente, como também vai proporcionar novas funcionalidades aos clientes atuais.
+             </p>
+             <p>
+                 Com esta aplicação/website os clientes podem aceder a planos de treino,às localizações e horários dos ginásios,a planos de nutrição, escolher o seu próprio PT e muito mais.
+             </p>
+             <p>
+                 Os clientes ainda têm a opção de subscrever um plano Premium(FITVISE+)que lhes trará funcionalidades extras em relação aos utiliadores do plano FREE. 
+             </p>
+        </div> 
+      </div> 
+      <nav class="navbar navbar-light bg-light fixed-bottom">
+        <div class="container small" style="height:60px">
+            <div class="navbar-text">&copy; FitVise</div>
+            <div class="navbar-text"><a href="Fitvise@gmail.com" class="text-decoration-none text-muted">E-Mail:fitvise@gmail.com</a>.</div>
+            <div class="navbar-nav">
+                <div class="nav-item text-end"><a href="https://www.ua.pt" class="nav-link"><h6>Telefone:913456784</h6>
+                </a>
+            </div>
+            </div>
+        </div>
+    </nav>  
+    <script src="../Scripts/bootstrap.bundle.min.js"></script>
+    <script src="../Scripts/knockout-3.5.1.js"></script>
+    <script src="../Scripts/jquery-3.6.0.min.js"></script>
+</body>
+</html>

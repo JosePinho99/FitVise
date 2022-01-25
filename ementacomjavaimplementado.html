@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plano de alimentaçao</title>
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../lib/font-awesome/dist/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lixo.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top" style="width:100%">
+        <div class="container">
+            <ul class="navbar-nav mr-auto me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html"> Planos Alimentaçao</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="content">
+    <div class="jumbotron" style="margin-top:80px"></div>
+    <div class="container" style="text-align:center">
+        <div class="row">
+            <button type="button" class="button-55" role="button" onclick="document.location='normal.html'" style="margin-bottom:9px;color:white">Dieta Normal</button>
+            <button type="button" class="button-55" role="button" onclick="document.location='vegan.html'" style="margin-bottom:9px;color:white">Dieta Vegetariana</button>
+            <button type="button" class="button-55" role="button" onclick="ispremium()" style="margin-bottom:9px;color:white;background-color:darkgoldenrod">Nutricionista</button>
+        </div>
+    </div>
+    </div>
+    <script src="../lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="premium.js"></script>
+</body>
+</html>
